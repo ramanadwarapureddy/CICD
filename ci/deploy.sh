@@ -7,7 +7,6 @@ JAR_NAME=/home/travis/build/ramanadwarapureddy/Welcome/target/com.test-${version
 
 CLASS_NAME="com.test.APP"
 
-
 if [ ${env} = "dev" ] || [ ${env} = "staging" ] || [ ${env} = "prod" ]; then 
     java -cp ${JAR_NAME} ${CLASS_NAME}
 else 

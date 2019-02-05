@@ -3,7 +3,7 @@
 export env=$1
 export version=$2
 
-JAR_NAME=/home/travis/build/ramanadwarapureddy/Welcome/target/com.test-${version}.jar
+JAR_NAME=/home/travis/build/ramanadwarapureddy/CICD/target/com.test-${version}.jar
 
 CLASS_NAME="com.test.APP"
 
